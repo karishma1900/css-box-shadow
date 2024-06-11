@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Css Box Shadow</title>
+    </head>
+    <body>
+        <style>
+            .box-shadow{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+         
+                width:200px;
+                margin: auto;
+           background-color: transparent;
+
+                &:hover{
+
+                    transition: all 0.2s ease-in;
+                    box-shadow: 15px 8px 2px 8px rgb(0,0,0,0.8);
+                }
+            }
+            .box-shadow:hover img{
+                background-color: transparent;
+                  transform: translateY(-2%);
+            }
+            
+        </style>
+        <div class="box-shadow">
+        <img src="/images (7).jfif">
+        </div>
+    </body>
+</html>
